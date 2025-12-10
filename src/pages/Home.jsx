@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Home.css';  // Import Home.css, NOT Header.css!
+import './Home.css';
 
 function Home() {
   return (
