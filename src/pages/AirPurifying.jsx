@@ -1,6 +1,8 @@
 import React from 'react';
 import PlantCard from '../components/PlantCard';
 import './AirPurifying.css';
+import Spider_PlantImg from '../assets/AirPurifyingPlnts/Spider Plant.jpg';
+import Peace_LilyImg from '../assets/AirPurifyingPlnts/Peace Lily.jpg';
 
 function AirPurifying() {
   const airPurifyingPlants = [
@@ -11,7 +13,8 @@ function AirPurifying() {
       originalPrice: 30,
       onSale: true,
       description: 'Filters formaldehyde and xylene from the air.',
-      category: 'air-purifying'
+      category: 'air-purifying',
+      image:Spider_PlantImg 
     },
     {
       id: 2,
@@ -20,7 +23,8 @@ function AirPurifying() {
       originalPrice: 22,
       onSale: true,
       description: 'Removes mold spores and purifies the air.',
-      category: 'air-purifying'
+      category: 'air-purifying',
+      image : Peace_LilyImg
     }
   ];
 
