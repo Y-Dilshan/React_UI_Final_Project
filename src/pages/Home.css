@@ -1,0 +1,84 @@
+.hero {
+  background: linear-gradient(rgba(46, 125, 50, 0.9), rgba(46, 125, 50, 0.8)), 
+              url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  opacity: 0.95;
+}
+
+.get-started-btn {
+  background-color: white;
+  color: #2e7d32;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.get-started-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.intro-section {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.intro-section h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.intro-section p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.category-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.category-card h3 {
+  color: #2e7d32;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.category-card p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.category-btn {
+  width: 100%;
+}
