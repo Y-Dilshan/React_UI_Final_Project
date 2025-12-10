@@ -15,6 +15,9 @@ function PlantCard({ plant }) {
         <h3>{plant.name}</h3>
         {plant.onSale && <span className="sale-badge">SALE</span>}
       </div>
+      <div className="plant-card">
+      <img src={plant.image} alt={plant.name} className="plant-image" />
+    </div>
       <div className="plant-price">
         {plant.originalPrice && (
           <span className="original-price">${plant.originalPrice}</span>
