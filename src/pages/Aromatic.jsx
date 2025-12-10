@@ -1,7 +1,12 @@
 import React from 'react';
 import PlantCard from '../components/PlantCard';
 import './Aromatic.css';
-import lavenderImg from '../assets/images/lavender.jpg';
+import LavenderImg from '../assets/AromaticPlants/lavender.jpg';
+import JasmineImg from '../assets/AromaticPlants/Jasmine.jpg';
+import RosemaryrImg from '../assets/AromaticPlants/Rosemary.jpg';
+import MintImg from '../assets/AromaticPlants/Mint.jpg';
+import Lemon_BalmImg from '../assets/AromaticPlants/Lemon Balm.jpg';
+import HyacinthImg from '../assets/AromaticPlants/Hyacinth.jpg';
 
 function Aromatic() {
   const aromaticPlants = [
@@ -22,7 +27,7 @@ function Aromatic() {
       onSale: true,
       description: 'Sweet fragrance, promotes relaxation.',
       category: 'aromatic',
-      image: 'https://cdn.pixabay.com/photo/2016/01/26/23/32/jasmine-1163497_1280.jpg'
+      image: JasmineImg
     },
     {
       id: 5,
@@ -31,7 +36,7 @@ function Aromatic() {
       description: 'Invigorating scent, often used in cooking.',
       category: 'aromatic',
       onSale: true,
-      image: 'https://cdn.pixabay.com/photo/2017/10/06/15/15/rosemary-2823730_1280.jpg'
+      image: RosemaryrImg 
     },
     {
       id: 6,
@@ -40,7 +45,7 @@ function Aromatic() {
       description: 'Refreshing aroma, perfect for teas and cooking.',
       category: 'aromatic',
       onSale: true,
-      image: 'https://cdn.pixabay.com/photo/2015/09/09/19/23/mint-933066_1280.jpg'
+      image:MintImg
     },
     {
       id: 7,
@@ -49,7 +54,7 @@ function Aromatic() {
       description: 'Citrus scent that uplifts mood and reduces stress.',
       category: 'aromatic',
       onSale: true,
-      image: 'https://cdn.pixabay.com/photo/2017/03/06/10/31/lemon-balm-2120889_1280.jpg'
+      image: Lemon_BalmImg
     },
     {
       id: 8,
@@ -58,7 +63,7 @@ function Aromatic() {
       description: 'Sweet floral fragrance for indoor spaces.',
       category: 'aromatic',
       onSale: true,
-      image: 'https://cdn.pixabay.com/photo/2019/04/16/10/56/hyacinth-4131892_1280.jpg'
+      image: HyacinthImg
     }
   ];
 
